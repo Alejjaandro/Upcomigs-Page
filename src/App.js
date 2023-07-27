@@ -27,7 +27,7 @@ export default function App() {
           <Route path="/details/:movieId" element={<MovieDetails/>} />
         </Routes>
 
-        <footer className='navbar bg-dark px-5 py-3'>
+        <footer className='navbar bg-dark px-5 py-3 d-flex justify-content-center'>
           <h5 className="text-light text-center">CodeSpace Academy 2023 &copy;</h5>
         </footer>
 

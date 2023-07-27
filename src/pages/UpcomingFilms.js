@@ -22,10 +22,10 @@ export default function UpcomingFilms() {
 
 
   return (
-    <div className='m-3'>
-        <h1 className='mb-5'>Upcoming Movies:</h1>
+    <div className="pt-5 pb-5 flex-grow-1">
+        <h1 className="text-center mb-5">Upcoming Movies:</h1>
         <Pages pages={pages} setPages={setPages} />
-        <div className='d-flex flex-wrap'>
+        <div className="container d-flex flex-wrap">
             {upcomingMovies.map(movie =><Card movie={movie} id={movie.id}></Card>)}
         </div>
     </div>
