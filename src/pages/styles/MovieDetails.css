@@ -1,0 +1,9 @@
+.movie-image {
+    margin-top: 5rem;
+    border-radius: 2rem;
+    width: 90%;
+}
+
+.movie-info * {
+    font-size: xx-large;
+}
