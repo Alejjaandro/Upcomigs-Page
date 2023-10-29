@@ -1,6 +1,6 @@
 ## Presentation
 Hi, this is a project for a web that shows the latest Upcoming Movies.  
-Developed using React and Bootstrap.
+Developed using [React.js](https://es.react.dev) and [Bootstrap](https://getbootstrap.com/).
  
 **You can check the project fully functional here:**  
 https://alejjaandro-upcomings-project.netlify.app
