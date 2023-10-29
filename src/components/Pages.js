@@ -24,7 +24,7 @@ export default function Pagination({ pages, setPages }) {
 
     return (
         <div className="d-flex justify-content-center">
-            <div class="d-flex justify-content-center align-items-center w-75">
+            <div className="d-flex justify-content-center align-items-center w-75">
                 <ul className="pagination overflow-x-auto">
                     <PageButton handler={changePage} text="Previous" />
                     <div className="d-flex">
