@@ -20,6 +20,7 @@ npm install
 ### Frotend Dependencies
 
 - [React Router Dom:](https://github.com/remix-run/react-router#readme) A collection of navigational components that compose declaratively with your application.
+- [Bootstrap](https://getbootstrap.com/) Powerful, extensible, and feature-packed frontend toolkit.
 
 ## Project Structure
 - Components
