@@ -1,0 +1,10 @@
+.link-hover {
+    color: grey !important;
+    &:hover {
+        color: white !important;
+    }
+}
+
+.link-active {
+    color: white!important;
+}

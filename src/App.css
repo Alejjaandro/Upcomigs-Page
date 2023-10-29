@@ -28,9 +28,9 @@
   color: #61dafb;
 }
 
-nav .active, nav .active:hover, nav .active:active, nav .active:visited {
+/* nav .active, nav .active:hover, nav .active:active, nav .active:visited {
   color: green !important;
-}
+} */
 
 @keyframes App-logo-spin {
   from {

@@ -1,4 +1,4 @@
-import {URL_UPCOMINGS, URL_DETAILS} from '../settings';
+import {URL_UPCOMINGS} from '../settings';
 import { useState, useEffect } from 'react';
 
 import Card from '../components/Card';

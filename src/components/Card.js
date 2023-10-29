@@ -11,7 +11,7 @@ export default function Card ({movie}) {
         
     return (
         <div className="card flex-grow-1 m-3 shadow-sm col-4">
-            <img className="card-img-top" src={`${URL_IMAGES}${movie.backdrop_path}`} alt="Film IMAGE"/>
+            <img className="card-img-top" src={`${URL_IMAGES}${movie.backdrop_path}`} alt=""/>
             <div className="card-body">
                 <h3>{movie.title}</h3>
                 <h5 className="card-subtitle mb-2 text-muted">{movie.release_date}</h5>

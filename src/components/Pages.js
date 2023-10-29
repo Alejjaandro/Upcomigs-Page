@@ -23,21 +23,21 @@ export default function Pagination({ pages, setPages }) {
     };
 
     return (
-        <nav className="d-flex justify-content-center mt-3">
-            <ul className="pagination mb-3">
-                <PageButton handler={changePage} text="Previous" />
-
-                <div className="d-none d-md-flex">
-                    {pageRange(pages.total).map(page => {
-                        return <PageButton
-                            key={page} handler={changePage} text={page}
-                            active={page === pages.current} />
-                    })}
-                </div>
-
-                <PageButton handler={changePage} text="Next" />
-            </ul>
-        </nav>
+        <div className="d-flex justify-content-center">
+            <div class="d-flex justify-content-center align-items-center w-75">
+                <ul className="pagination overflow-x-auto">
+                    <PageButton handler={changePage} text="Previous" />
+                    <div className="d-flex">
+                        {pageRange(pages.total).map(page => {
+                            return <PageButton
+                                key={page} handler={changePage} text={page}
+                                active={page === pages.current} />
+                        })}
+                    </div>
+                    <PageButton handler={changePage} text="Next" />
+                </ul>
+            </div>
+        </div>
     )
 }
 
