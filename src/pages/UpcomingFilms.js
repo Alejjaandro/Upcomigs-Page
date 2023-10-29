@@ -26,7 +26,7 @@ export default function UpcomingFilms() {
         <h1 className="text-center mb-5 fw-bold">UPCOMING MOVIES:</h1>
         <Pages pages={pages} setPages={setPages} />
         <div className="d-flex flex-wrap justify-content-center">
-            {upcomingMovies.map(movie =><Card movie={movie} id={movie.id}></Card>)}
+            {upcomingMovies.map(movie =><Card movie={movie} id={movie.id} key={movie.id}></Card>)}
         </div>
         <Pages pages={pages} setPages={setPages} />
     </div>
