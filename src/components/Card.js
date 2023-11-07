@@ -10,7 +10,7 @@ export default function Card({ movie }) {
     const handleClick = movieId => navigate("/details/" + movieId);
 
     return (
-        <div className="card m-3 shadow-sm col-xxl-2 col-lg-3 col-md-4 p-0">
+        <div className="card m-3 shadow-sm col-lg-3 col-md-4 p-0">
             <img className="card-img-top" src={`${URL_IMAGES}${movie.backdrop_path}`} alt="" />
             <div className="card-body d-flex flex-column justify-content-between">
                 <div className='mb-3'>
